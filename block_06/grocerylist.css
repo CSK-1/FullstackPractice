@@ -9,30 +9,46 @@ h1{
 h2{
     background-color: #cac8c8;
     border: 2px solid;
-    margin: 25px;
+    margin: 10px 25px 10px 25px;
     padding: 10px;
     display: inline-block;
+    min-width: 478px;
 }
 
 .pantry{
     background-color: #f3b9b9;
     border: 2px solid #5da6e7;
-    margin: 25px;
+    margin: 0px 25px 25px 25px;
     padding: 10px;
     display: inline-block;
+    min-width: 200px;
+    min-height: 300px;
 }
 
 .cold{
     background-color: #5da6e7;
     border: 2px solid #f3b9b9;
-    margin: 25px;
+    margin: 0px 25px 25px 25px;
     padding: 10px;
     display: inline-block;
+    min-width: 200px;
+    min-height: 300px;
 }
 
 .picture{
-    display: inline-block;
-    border: 2px solid;
     margin: 25px;
-    height: 10vw;
+    height: 150px;
+    position: relative;
+}
+
+.imageBackground{
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    margin: 0px 25px 25px 25px;
+    padding: 10px;
+    display: inline-block;
+    min-width: 200px;
+    min-height: 300px;
+    position: absolute;
+    align-content: center;
 }
