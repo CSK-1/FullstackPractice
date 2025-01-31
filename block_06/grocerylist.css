@@ -1,0 +1,38 @@
+html{
+    background-color: #e4f8ff;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    background-color: #cac8c8;
+    border: 2px solid;
+    margin: 25px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.pantry{
+    background-color: #f3b9b9;
+    border: 2px solid #5da6e7;
+    margin: 25px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.cold{
+    background-color: #5da6e7;
+    border: 2px solid #f3b9b9;
+    margin: 25px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.picture{
+    display: inline-block;
+    border: 2px solid;
+    margin: 25px;
+    height: 10vw;
+}

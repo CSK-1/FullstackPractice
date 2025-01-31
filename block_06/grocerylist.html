@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chase's Grocery List</title>
+    <!-- This links to an external CSS document -->
+    <link rel="stylesheet" href="grocerylist.css" />
+    <!-- This is internal CSS -->
+    <style type = text/css>
+    body{color:#300130}
+    </style>
+</head>
+<body>
+    <!-- This is styling in the header -->
+    <header style="color: #7613d1;">
+        <h1>It's My Grocery List!</h1>
+    </header>
+    <section>
+        <!-- This is inline styling -->
+        <h2 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Pantry Items</h2>
+    </section>
+    <section class="pantry">
+        <h3>Canned Goods</h3>
+        <ul>
+            <li>Black beans</li>
+            <li>Kidney beans</li>
+            <li>Corn</li>
+            <li>Soup</li>
+        </ul>
+    </section>
+    <section class="pantry">
+        <h3>Dry Goods</h3>
+        <ul>
+            <li>Brown Rice</li>
+            <li>White Rice</li>
+            <li>Popcorn Kernels</li>
+            <li>Oats</li>
+        </ul>
+    </section>
+    <img class="picture" src="./oatmeal.jpg" alt="Oatmeal"/>
+    <section>
+        <!-- This is more inline styling -->
+        <h2 style="font-family: Georgia, 'Times New Roman', Times, serif;">Cold Items</h2>
+    </section>
+    <section class="cold">
+        <h3>Fridge Items</h3>
+        <ol>
+            <li>Veggies</li>
+            <ol>
+                <li>Broccoli</li>
+                <li>Cauliflower</li>
+                <li>Spinach</li>
+                <li>Lettuce</li>
+                <li>Bell Peppers</li>
+                <li>Carrots</li>
+            </ol>
+            <li>Protein</li>
+            <ol>
+                <li>Tofu</li>
+                <li>Tempeh</li>
+            </ol>
+        </ol>
+    </section>
+    <section class="cold">
+        <h3>Freezer Items</h3>
+        <ol>
+            <!-- These lists have sub-lists -->
+            <li>Frozen Fruit</li>
+            <ol>
+                <li>Strawberries</li>
+                <li>Peaches</li>
+            </ol>
+            <li>Frozen Veggies</li>
+            <ol>
+                <li>Spinach</li>
+                <li>Corn</li>
+                <li>Peas</li>
+            </ol>
+            <li>Frozen Treats</li>
+            <ol>
+                <li>Ice Cream</li>
+                <li>Popsicles</li>
+            </ol>
+        </ol>
+    </section>
+    <img class="picture" src="./fridge.jpg" alt="Fridge"/>
+</body>
+</html>
