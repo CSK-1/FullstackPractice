@@ -14,4 +14,5 @@ const var3 = 40 - 1
 
 // A dialog that includes the message and each combination value
 // Used template literals instead of concatenated strings
-alert(`${message} ${var1} - ${var2} - ${var3}`)
+// \n is a page break within a dialog box, so the combination is on a separate line from the message
+alert(`${message}\n${var1} - ${var2} - ${var3}`)
