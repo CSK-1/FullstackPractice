@@ -4,10 +4,14 @@
 // 4. Assign a variable with an arithmetic equation for 39
 // 5. Create a popup dialog displaying the vault codes
 
+// Adding the whole message in one variable
 const message = "You have received this message because you have been chosen to open an important vault. Here is the secret combination:"
 
+// Breaking the combination into three variables - each with a different arithmetic equation
 const var1 = 20 / 2
 const var2 = 4 * 10
 const var3 = 40 - 1
 
+// A dialog that includes the message and each combination value
+// Used template literals instead of concatenated strings
 alert(`${message} ${var1} - ${var2} - ${var3}`)
